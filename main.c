@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+void ispis(int c)
+{
+	print("Rezultat je: %d\n", c);
+}
+
 int main()
 {
 	int a = 5;
@@ -11,7 +16,7 @@ int main()
 	else
 		c = b - a;
 
-	print("Rezultat je: %d\n", c);
+	ispis(c);
 
     return 0;
 }
